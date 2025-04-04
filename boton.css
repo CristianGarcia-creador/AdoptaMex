@@ -1,0 +1,29 @@
+
+.button-container {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.adopt-btn {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.adopt-btn:hover {
+    background-color: #ff5047;
+}
+
+.adopt-btn:focus {
+    outline: none;
+}

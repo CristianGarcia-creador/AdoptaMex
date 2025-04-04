@@ -1,0 +1,190 @@
+body{
+    zoom:1;
+body {
+            background-image: url('fondoo.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color:#51c8d8;
+            padding: 10px 0;
+
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu nav ul li {
+            display: inline;
+        }
+
+        .menu nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .menu .toggle-menu {
+            display: none;
+        }
+
+        .center-content {
+            text-align: center;
+        }
+
+        .center-content img {
+            vertical-align: middle;
+        }
+
+        .center-content font {
+            display: block;
+            font-size: 3rem;
+            color: rgb(0, 0, 0);
+            font-family: 'Seagram TFB', sans-serif;
+        }
+
+        marquee {
+            font-size: 1.5rem;
+            color: #000000;
+            text-shadow: #1393c5 2px 2px 3px;
+        }
+
+        .form-container {
+            display: flex;
+            justify-content:space-around;
+            padding: 20px;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        form {
+            background:rgb(250, 180, 202);
+            padding: 20px;
+            border-radius: 5px;
+            width: 100%;
+            max-width: 600px;
+        }
+
+        form div {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"], textarea {
+            width: 95%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            max-width: 120px;
+            padding: 10px;
+            border: none;
+            background-color: #6c6e6c;
+            color: white;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1393c5;
+        }
+
+        .header-image {
+            width: 100%;
+            max-width: 800px;
+            height: 470px;
+        }
+
+        @media (max-width: 768px) {
+            .form-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .header-image {
+                width: 100%;
+                max-width: none;
+            }
+
+            form {
+                width: 100%;
+                max-width: 500px;
+            }
+
+            button {
+                width: auto;
+                max-width: 100%;
+            }
+        }
+
+        .cir{
+            border-radius:60%;
+            width:30%;
+            height:38%;
+           margin: 0% 20%;
+        
+            }
+        
+        .dos{
+                border-radius:60%;
+                width:29%;
+                height:40%;
+                margin:0% -18%;
+             
+              
+            }
+
+            footer {
+                background-color: #51c8d8; /* Color de fondo para la barra */
+                padding: 10px;
+                text-align: center;
+                margin-top: 145px;
+            }
+            
+            .social-media {
+                display: flex;
+                justify-content: center;
+                gap: 15px; /* Espacio entre los iconos */
+            }
+            
+            .social-icon img {
+                width: 30px; /* Tamaño de los iconos */
+                height: 30px;
+                transition: transform 0.3s;
+            }
+            
+            .spaced-image {
+                margin-left: 20px; 
+                width: 800px;
+                height: 526px;
+            }
+            
+        }
