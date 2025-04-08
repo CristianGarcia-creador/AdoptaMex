@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopta </title>
+    <link rel="stylesheet" href="menu AdoptaMex.css">
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+</head>
+<body background="fonmex.avif">
+    <hr color="black">
+    <center>
+        <br>
+    <left><img src="pergat.png.png" width="200" height="100" ></left>
+    <font size="600" color="black" face="seagram tfb">AdoptaMex</font>
+    <right><img src="pergat.png.png" width="200" height="100"></right>
+    </center><hr color="black"><br>
+
+    <header>
+        <div class="menu">
+            <label class="toggle-menu">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="adopta.html">Adopción</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="quienes somos.html">¿Quiénes somos?</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+         <br> <br>
+
+    <div class="form-container">
+        <img src="PERRO (22).jpeg" class="header-image" alt="Refugio">
+        <form id="contact-form">
+            <div>
+                <label for="name">Nombre(s):</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="apllp">Apellidos:</label>
+                <input type="text" id="apllp" name="apllp" required>
+            </div>
+            <div>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="mail" required>
+            </div>
+            <div>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="msg" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        // Inicializa EmailJS con tu User ID
+        emailjs.init("CtAzA2bE_jVxUit0Q"); // Reemplaza "tu_user_id" con tu User ID de EmailJS
+
+        // Maneja el evento de envío del formulario
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevenir el comportamiento por defecto del formulario (recarga de página)
+
+            // Enviar el formulario utilizando EmailJS
+            emailjs.sendForm('service_ysgisgr', 'template_6qcs592', this)
+                .then(function(response) {
+                    alert("Mensaje enviado correctamente!");
+                    // Opcional: puedes restablecer el formulario aquí si deseas limpiar los campos
+                    document.getElementById("contact-form").reset();
+                }, function(error) {
+                    alert("Error al enviar el mensaje: " + JSON.stringify(error));
+                });
+        });
+    </script>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="social-icon">
+                <img src="tik-tok.png" alt="Twitter">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+                <img src="whatsapp.png" alt="LinkedIn">
+            </a>
+        </div>
+    </footer>
+    
+   
+</body>
+</html>

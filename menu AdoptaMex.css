@@ -1,0 +1,213 @@
+body{
+    zoom:1;
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{
+    margin:5px; 
+    padding:0px; 
+    font-family: gabriola;
+}
+
+section{
+    width:100%; 
+    max-width:500px; 
+    margin:0px auto; 
+    display:flex; 
+    position:relative;
+}
+header{
+    width:100%;
+     display:table; 
+     background-color:#82eaf8;  
+     margin-bottom:30px;
+     height:30px;
+    }
+#logo{ 
+    float:left; 
+    font-size:20px; 
+    text-transform:uppercase; 
+    color:#3ed5ff; 
+    font-weight:0px; 
+    padding:20px 0px;
+}
+nav{
+    height: 100%;
+    width:auto; 
+    float:center;}
+nav > ul{
+    height: 100%;
+    display:flex; 
+    float:center;}
+nav > ul >li{
+    float:left;
+}
+nav > ul > li:last-child{
+    padding-left:0px;
+}
+
+nav > ul > li >a{
+    color:rgb(0, 0, 0);
+     font-size:20px; 
+     padding: 25px 20px; 
+     display:inline-block; 
+     transition: all 0.5s ease 0s;
+    }
+nav > ul > li> a:hover{
+    background-color:#fba8e9; 
+    color:#3b3db1; 
+    transition: all 0.5s ease 0s;
+}
+
+
+/*texto e imagenes*/
+
+p {
+    color:#000000;
+    font-size:23px;
+    font-family:Arial, Helvetica, sans-serif;
+    .text
+    {
+        background-color: #ffff9e;
+        width:50%;
+        float: left;
+    }
+    width:90%;
+    }
+
+    .cir{
+        border-radius:60%;
+        width:30%;
+       margin: 0% 50%;
+    
+        }
+    
+    .dos{
+            border-radius:60%;
+            width:30%;
+            margin:0% -58%;
+         
+          
+        }
+    
+
+        footer {
+            background-color: #f6a9cf; /* Color de fondo para la barra */
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Espacio entre los iconos */
+        }
+        
+        .social-icon img {
+            width: 30px; /* Tamaño de los iconos */
+            height: 30px;
+            transition: transform 0.3s;
+        }
+        @media (max-width: 480px) {
+            *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{
+    margin:5px; 
+    padding:0px; 
+    font-family: gabriola;
+}
+
+section{
+    width:100%; 
+    max-width:500px; 
+    margin:0px auto; 
+    display:flex; 
+    position:relative;
+}
+header{
+    width:100%;
+     display:table; 
+     background-color:#82eaf8;  
+     margin-bottom:10px;
+     height:30px;
+    }
+#logo{ 
+    float:left; 
+    font-size:20px; 
+    text-transform:uppercase; 
+    color:#3ed5ff; 
+    font-weight:0px; 
+    padding:20px 0px;
+}
+nav{
+    height: 100%;
+    width:auto; 
+    float:center;}
+nav > ul{
+    height: 100%;
+    display:flex; 
+    float:center;}
+nav > ul >li{
+    float:left;
+}
+nav > ul > li:last-child{
+    padding-left:0px;
+}
+
+nav > ul > li >a{
+    color:rgb(0, 0, 0);
+     font-size:20px; 
+     padding: 25px 20px; 
+     display:inline-block; 
+     transition: all 0.5s ease 0s;
+    }
+nav > ul > li> a:hover{
+    background-color:#fba8e9; 
+    color:#3b3db1; 
+    transition: all 0.5s ease 0s;
+}
+
+
+/*texto e imagenes*/
+
+p {
+    color:#000000;
+    font-size:23px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ffff9e;
+    width:90%;
+    }
+
+    .cir{
+        border-radius:60%;
+        width:30%;
+       margin: 0% 50%;
+    
+        }
+    
+    .dos{
+            border-radius:60%;
+            width:30%;
+            margin:0% -58%;
+         
+          
+        }
+    
+
+        footer {
+            background-color: #f6a9cf; /* Color de fondo para la barra */
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 15px; /* Espacio entre los iconos */
+        }
+        
+        .social-icon img {
+            width: 30px; /* Tamaño de los iconos */
+            height: 30px;
+            transition: transform 0.3s;
+        }
+          } 
+        
+        }

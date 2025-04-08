@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AdoptaMex</title>
+    <link rel="stylesheet" href="../menu huellitas.css">
+    <link rel="stylesheet" href="../contacto.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../boton.css">
+
+    <style>
+        body {
+            background: url('fonmex.avif') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #000;
+        }
+    
+        .main-container {
+            width: 95%;
+            max-width: 1300px;
+            margin: auto;
+            background-color: #f7bee6;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+    
+        .main-container h2 {
+            text-align: center;
+            font-size: 5em;
+            margin-bottom: 30px;
+        }
+    
+        .col-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+    
+        .col2 {
+            flex: 1 1 40%;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+            font-size: 1.3em;
+        }
+    
+        .jorsh_pag {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    
+        .jorsh_pag .text p {
+            margin: 10px 0;
+        }
+    
+        .jorsh_pag .image img {
+            width: 500%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+    
+        .btn-image {
+            text-align: center;
+            margin-top: 40px;
+        }
+    
+        .btn-image img {
+            width: 200px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+    
+        .btn-image img:hover {
+            transform: scale(1.05);
+        }
+    
+        footer {
+            text-align: center;
+            margin-top: 50px;
+        }
+    
+        .social-media {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .social-icon img {
+            width: 30px;
+            transition: transform 0.2s;
+        }
+    
+        .social-icon img:hover {
+            transform: scale(1.2);
+        }
+    
+        @media screen and (max-width: 768px) {
+            .col2 {
+                flex: 1 1 100%;
+            }
+    
+            .main-container h2 {
+                font-size: 3em;
+            }
+    
+            .jorsh_pag .image img {
+                max-width: 90%;
+            }
+        }
+    </style>
+    
+    
+</head>
+<body background="fonmex.avif">
+    <hr color="black">
+    <center>
+        <br>
+        <left><img src="pergat.png.png" width="200" height="100" ></left>
+        <font size="600" color="black" face="seagram tfb">AdoptaMex</font>
+        <right><img src="pergat.png.png" width="200" height="100"></right>
+    </center>
+    <hr color="black"><br>
+
+    <header>
+        <div class="menu">
+            <label class="toggle-menu">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../adopta.html">Adopción</a></li>
+                    <li><a href="../contacto.html">Contacto</a></li>
+                    <li><a href="../quienes somos.html">¿Quiénes somos?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <br><br>
+    <div class="main-container">
+        <h2>Pelusa</h2>
+        <div class="col-container">
+            <div class="col2">
+                <div class="jorsh_pag">
+                    <div class="text">
+                        <p><strong>Nombre:</strong>Pelusa</p>
+                        <p><strong>Sexo:</strong> Hembra</p>
+                        <p><strong>Edad:</strong>Adulta</p>
+                        <p><strong>caracteriticas:</strong><br>Pelo rizado, juguetona y alegre</p>
+                        <p><strong>Tamaño:</strong> pequeño</p>
+                        <p><strong>Ubicación:</strong> Chimalhuacán</p>
+                    </div>
+                    <div class="image">
+                        <img src="../imgs/perros/jose.jpg" alt="Pelusa 1">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col2">
+                <div class="jorsh_pag">
+                    <div class="text">
+                        <p><strong>Descripción:</strong></p>
+                        <p style="text-align: justify;">Era una perrita callejera, su anterior familia la abandono a su suerte y con el tiempo se volvio muy querida y conocida por la localidad hacia donde llego, le daban alimento y refugio cuando lo necesitaba sin embargo debido a las estaciones climatologicas ella enfermo, fue en ese momento que una familia la llevo al veterinario y le dio tratamiento, desde ese momento la familia decidio adoptarla para evitar futuras enfermedades pero sin dejar de pasearla en la comunidad</p>
+                    </div>
+                    <div class="image">
+                        <img src="../imgs/perros/jose-1.jpg" alt="Pelusa 2">
+                    </div>
+                </div>
+            </div>
+
+            <div class="btn-image">
+                <a href="../contacto.html">
+                    <img src="../imgs/adoptame.png" alt="Adóptame">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <img src="../facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="social-icon">
+                <img src="../tik-tok.png" alt="TikTok">
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <img src="../instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank" class="social-icon">
+                <img src="../whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
